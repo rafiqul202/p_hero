@@ -44,10 +44,19 @@
 }
 .container .backg_1{
   margin: 30px 0;
-  background-image:  url(/images/1.jpg);
+
+   background-image: linear-gradient(
+      rgba(245, 246, 252, 0.52),
+      rgba(117, 19, 93, 0.73)
+    ), url(../images/1.jpg);
+  background-position: center;
+  background-size: cover;
+  
+  background-repeat: no-repeat;
+  /* background-image:  url(/images/1.jpg);
   /* background-color: rgba(26,48,86,.82); */
   border-radius:15px;
-  height: 600px;
+  height: 600px; */
   /* position: relative; */
 }
 
@@ -60,24 +69,25 @@
   background: red;
 } */
 
+
 .container .menu_bg{
-  text-align: center;
   
+
   padding-top: 180px; 
   /* padding-left: 270px; */ 
 }
 
 .container .menu_bg h4{
-  color: red;
-  font-size: 30px;
+  
+  font-size: 35px;
 }
 .container .menu_bg h1{
   font-size: 70px;
-  color:rgb(223, 157, 157);
+  
 }
 
 .container .menu_bg p{
-  color: rgb(235, 57, 12);
+  color: white;
 }
  .container .menu_bg .btn{
   margin-top: 20px;
@@ -194,7 +204,7 @@ background-color: red;
  
 }
 
-.group_411 .menu .fa-camera{
+.group_411 .menu .fa_icon{
   /* margin-left: 0px; */
   font-size: 45px;
   height: 150px;
